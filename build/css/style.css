@@ -13,7 +13,27 @@
 
 .company-info { -ms-word-break: break-all; word-break: break-all; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }
 
-@media (min-width: 768px){
+.page__name h2, .edit-company__details__name h2 { font-size: 30px !important; margin-top: 20px !important; margin-bottom: 10px !important; font-weight: normal !important; }
+
+.pagination-zone { margin-top: 30px; margin-bottom: 10px !important; }
+.pagination-zone .page__name h2 { margin-top: 0 !important; margin-bottom: 0 !important; }
+.pagination-zone .row .text-right { padding-top: 8px !important; }
+
+.page__name + .edit-company__nav { padding-top: 0 !important; }
+.page__name + .edit-company__nav .company-list-table { padding-top: 0 !important; margin-top: 0 !important; }
+
+.main__news-list__in-catalogue { padding-top: 0 !important; padding-bottom: 0 !important; }
+
+.single-company__map { padding-top: 0; }
+
+.breadcrumb { margin-bottom: 0 !important; }
+
+.breadcrumb + .company-news-table { margin-top: 0 !important; padding-top: 0 !important; }
+.breadcrumb + .company-news-table thead tr:first-child td { font-size: 30px; padding-top: 20px; padding-bottom: 10px; }
+
+.main__news__filter { margin-top: 0 !important; }
+
+@media only screen and (min-width: 768px){
  .news__content img{ max-width: 100% !important; } }
 
 
