@@ -99,3 +99,23 @@ body
 .r-side-ads
 	margin-top: 10px
 	margin-bottom: 10px
+
+.panel-heading
+	.menu-panel__holiday
+		display: block !important
+		&:after
+			content: ''
+			display: block
+			position: absolute
+			top: 6px
+			right: 5px
+			z-index: 10
+			+arr(7, 4, #68757B, b)
+			cursor: pointer
+			+tr(all .2s)
+		// &[aria-expanded="false"]
+		// 	&:after
+		// 		+rotate(180)
+		// &[aria-expanded="true"]
+		// 	&:after
+		// 		+rotate(0)

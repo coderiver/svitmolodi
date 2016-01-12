@@ -1,5 +1,13 @@
 $(document).ready(function() {
 
-	// go js
+	$('.menu-panel__holiday').click(function() {
+		if ($(this).hasClass('is-active')) {
+			$('.menu-panel__holiday').removeClass('is-active');
+		}
+		else {
+			$('.menu-panel__holiday').removeClass('is-active');
+			$(this).addClass('is-active');
+		}
+	});
 
 });
