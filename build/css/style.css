@@ -33,6 +33,10 @@
 
 .main__news__filter { margin-top: 0 !important; }
 
+.service-item__on-map { top: 5px; }
+
+.service-item__title { margin-top: 10px; }
+
 @media only screen and (min-width: 768px){
  .news__content img{ max-width: 100% !important; } }
 
