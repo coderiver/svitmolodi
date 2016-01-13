@@ -34,6 +34,18 @@ body
 	// line-height: 1.4
 // common blocks
 
+.wrp
+	max-width: 720px
+	margin: auto
+	box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4)
+	+rmin(1200)
+		max-width: 1030px
+	.wrp-inner
+		margin: 0 -15px
+
+.top-content-ad .ad, .footer
+	box-shadow: none
+
 .footer-nav 
 	a
 		border-bottom-color: transparent !important
@@ -100,6 +112,15 @@ body
 	margin-top: 10px
 	margin-bottom: 10px
 
+.menu-panel .panel-title > a
+	margin-bottom: 0 !important
+	padding-bottom: 14px !important
+
+.panel-group .panel
+	padding-top: 5px !important
+.panel-group .panel + .panel
+	margin-top: 0 !important
+
 .panel-heading
 	.menu-panel__holiday
 		display: block !important
@@ -107,15 +128,15 @@ body
 			content: ''
 			display: block
 			position: absolute
-			top: 6px
+			top: 3px
 			right: 5px
 			z-index: 10
 			+arr(7, 4, #68757B, b)
 			cursor: pointer
 			+tr(all .2s)
-		// &[aria-expanded="false"]
-		// 	&:after
-		// 		+rotate(180)
-		// &[aria-expanded="true"]
-		// 	&:after
-		// 		+rotate(0)
+		&[aria-expanded="false"]
+			&:after
+				+rotate(180)
+		&[aria-expanded="true"]
+			&:after
+				+rotate(0)

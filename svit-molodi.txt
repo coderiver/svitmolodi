@@ -1,0 +1,2 @@
+1)На страничках, где нужна тень, добавить 2 класса обёртки внуть BODY <div class='wrp'><div class='wrp-inner'></div></div>;
+2)изменить атрибуты aria-expanded на значение false по умолчанию. Сейчас стоит true. (http://clip2net.com/s/3sSjngC)
